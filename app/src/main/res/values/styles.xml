@@ -1,0 +1,410 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style parent="Theme.AppCompat.Light.NoActionBar" name="BaseTheme">
+
+        <!-- Customize your theme here. -->
+
+<!--        <style name="spinner_style">-->
+<!--            <item name="android:layout_width">match_parent</item>-->
+<!--            <item name="android:layout_height">wrap_content</item>-->
+<!--            <item name="android:background">@drawable/gradient_spinner</item>-->
+<!--            <item name="android:layout_margin">10dp</item>-->
+<!--            <item name="android:paddingLeft">8dp</item>-->
+<!--            <item name="android:paddingRight">20dp</item>-->
+<!--            <item name="android:paddingTop">5dp</item>-->
+<!--            <item name="android:paddingBottom">5dp</item>-->
+<!--            <item name="android:popupBackground">#DFFFFFFF</item>-->
+<!--        </style>-->
+
+
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:actionModeBackground">@color/blue_grey_600</item>
+
+        <item name="android:dialogTheme">@style/Dialog.Theme</item>
+
+    </style>
+
+    <style parent="ThemeOverlay.AppCompat.Dark.ActionBar" name="AppTheme.AppBarOverlay"/>
+
+    <style parent="ThemeOverlay.AppCompat.Light" name="AppTheme.PopupOverlay"/>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.Primary">
+
+        <item name="colorButtonNormal">@color/colorPrimary</item>
+
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.Accent">
+
+        <item name="colorButtonNormal">@color/colorAccent</item>
+
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.active">
+
+        <item name="colorButtonNormal">#2ca961</item>
+
+        <item name="android:textColor">#2ca961</item>
+
+    </style>
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.Green">
+
+        <item name="colorButtonNormal">@color/light_green_500</item>
+
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.White">
+
+        <item name="colorButtonNormal">@android:color/white</item>
+
+        <item name="android:textColor">@color/grey_60</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Borderless.Colored" name="Button.Primary.Borderless">
+
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Borderless.Colored" name="Button.Accent.Borderless">
+
+        <item name="android:textColor">@color/colorAccent</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Borderless.Colored" name="Button.Accent.Borderless.WhiteText">
+
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.White.Primary">
+
+        <item name="colorButtonNormal">@android:color/white</item>
+
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.White.TextDark">
+
+        <item name="colorButtonNormal">@android:color/white</item>
+
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+
+    <style parent="@style/Widget.AppCompat.Button.Colored" name="Button.White.Accent">
+
+        <item name="colorButtonNormal">@android:color/white</item>
+
+        <item name="android:textColor">@color/colorAccent</item>
+
+    </style>
+
+    <!--style for ripple library-->
+
+
+
+
+
+
+
+    <style parent="Theme.AppCompat.Light.Dialog" name="Dialog.Theme">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!--Theme for date picker dialog-->
+
+
+
+
+    <!--Theme for time picker dialog-->
+
+
+
+    <style parent="Theme.AppCompat.Light.Dialog.Alert" name="TimePickerThemeLight">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="colorAccent">@color/colorPrimary</item>
+
+    </style>
+
+
+    <style parent="Base.Widget.AppCompat.RatingBar.Small" name="Yellow.Small.AppCompatRatingBar">
+
+        <item name="colorControlNormal">@color/grey_60</item>
+
+        <item name="colorControlActivated">@color/yellow_600</item>
+
+    </style>
+
+
+    <style parent="Base.Widget.AppCompat.RatingBar.Small" name="Yellow.Small.AppCompatRatingBar.White">
+
+        <item name="colorControlNormal">@color/grey_20</item>
+
+        <item name="colorControlActivated">@color/yellow_600</item>
+
+    </style>
+
+
+    <style parent="@style/Yellow.Small.AppCompatRatingBar" name="Yellow.Very.Small.AppCompatRatingBar">
+
+        <item name="android:minHeight">8dp</item>
+
+        <item name="android:maxHeight">8dp</item>
+
+    </style>
+
+
+    <style parent="Base.Widget.AppCompat.RatingBar.Indicator" name="Yellow.AppCompatRatingBar">
+
+        <item name="colorControlNormal">@color/grey_60</item>
+
+        <item name="colorControlActivated">@color/yellow_600</item>
+
+    </style>
+
+
+    <!--    <style parent="Widget.Design.TabLayout" name="CustomTabLayout">-->
+
+    <!--        <item name="tabIndicatorColor">@android:color/white</item>-->
+
+    <!--        <item name="tabIndicatorHeight">3dp</item>-->
+
+    <!--        <item name="tabBackground">?attr/selectableItemBackground</item>-->
+
+    <!--        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>-->
+
+    <!--        <item name="tabSelectedTextColor">@android:color/white</item>-->
+
+    <!--    </style>-->
+
+
+    <!--    <style parent="TextAppearance.Design.Tab" name="CustomTabTextAppearance">-->
+
+    <!--        <item name="android:textColor">@color/grey_10</item>-->
+
+    <!--        <item name="android:textStyle">bold</item>-->
+
+    <!--        <item name="textAllCaps">true</item>-->
+
+    <!--    </style>-->
+
+
+    <style parent="@style/TextAppearance.AppCompat.Subhead" name="TextAppearance.Subhead.Bold">
+
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style parent="@style/TextAppearance.AppCompat.Medium" name="TextAppearance.Medium.Bold">
+
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+
+    <style parent="@style/ThemeOverlay.AppCompat.Light" name="Drawer.Custom.Dark">
+
+        <item name="colorControlHighlight">#26000000</item>
+
+        <item name="listPreferredItemHeightSmall">60dp</item>
+
+    </style>
+
+
+    -<style parent="@style/AppTheme" name="Toolbar.Light">
+
+    <item name="colorControlNormal">@color/grey_60</item>
+
+    <item name="android:textColorPrimary">@color/grey_60</item>
+
+</style>
+
+    <!-- Base application theme. -->
+
+
+
+    -<style parent="@style/AppTheme" name="EditText.Yellow">
+
+    <item name="colorControlNormal">@color/grey_5</item>
+
+    <item name="colorControlActivated">@color/amber_500</item>
+
+    <item name="colorControlHighlight">@color/amber_500</item>
+
+</style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    -<style parent="@style/AppTheme" name="EditText.White">
+
+    <item name="colorControlActivated">@android:color/white</item>
+
+    <item name="colorControlHighlight">@android:color/white</item>
+
+    <item name="colorControlNormal">@color/grey_10</item>
+
+</style>
+
+
+    -<style parent="@style/EditText.White" name="EditText.White.Hint">
+
+    <item name="colorAccent">@android:color/white</item>
+
+    <item name="android:textColorHint">@color/grey_10</item>
+
+</style>
+
+
+    -<style parent="@style/AppTheme" name="EditText.Grey">
+
+    <item name="colorControlActivated">@color/grey_60</item>
+
+    <item name="colorControlHighlight">@color/grey_60</item>
+
+    <item name="colorControlNormal">@color/grey_40</item>
+
+</style>
+
+
+    -<style parent="@style/AppTheme" name="EditText.GreySoft">
+
+    <item name="colorControlActivated">@color/grey_40</item>
+
+    <item name="colorControlHighlight">@color/grey_40</item>
+
+    <item name="colorControlNormal">@color/grey_20</item>
+
+</style>
+
+
+    -<style parent="@style/EditText.Grey" name="EditText.Grey.Hint">
+
+    <item name="colorAccent">@color/grey_60</item>
+
+</style>
+
+    -<style parent="@style/AppTheme" name="EditText.Green">
+
+    <item name="colorControlActivated">@color/green_500</item>
+
+    <item name="colorControlHighlight">@color/green_500</item>
+
+    <item name="colorControlNormal">@color/green_400</item>
+
+</style>
+
+
+    -<style parent="@style/AppTheme" name="EditText.Flat.Grey">
+
+    <item name="android:textColorHint">@color/grey_40</item>
+
+    <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+
+    <item name="android:textColor">@color/grey_90</item>
+
+</style>
+
+
+    -<style parent="@style/AppTheme" name="EditText.Flat.Grey.Small">
+
+    <item name="android:textColorHint">@color/grey_40</item>
+
+    <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Body1</item>
+
+    <item name="android:textColor">@color/grey_90</item>
+
+</style>
+
+
+    <!--    -<style parent="Widget.Design.TabLayout" name="CustomTabBottomSheet">-->
+
+    <!--    <item name="tabIndicatorColor">@android:color/transparent</item>-->
+
+    <!--    <item name="tabIndicatorHeight">4dp</item>-->
+
+    <!--    <item name="tabPaddingStart">12dp</item>-->
+
+    <!--    <item name="tabPaddingEnd">12dp</item>-->
+
+    <!--    <item name="tabBackground">?attr/selectableItemBackground</item>-->
+
+    <!--    <item name="tabSelectedTextColor">?android:textColorPrimary</item>-->
+
+    <!--</style>-->
+
+
+    <!--    -<style parent="@style/AppTheme" name="ProgressBar.White">-->
+
+    <!--    <item name="colorPrimary">@android:color/white</item>-->
+
+    <!--    <item name="colorAccent">@android:color/white</item>-->
+
+    <!--</style>-->
+
+
+    -<style parent="@style/AppTheme" name="Checkbox.Blue">
+
+    <item name="colorPrimary">@color/blue_600</item>
+
+    <item name="colorAccent">@color/blue_600</item>
+
+    <item name="colorControlActivated">@color/blue_600</item>
+
+    <item name="colorControlHighlight">@color/blue_600</item>
+
+    <item name="colorControlNormal">@color/grey_40</item>
+
+</style>
+
+</resources>

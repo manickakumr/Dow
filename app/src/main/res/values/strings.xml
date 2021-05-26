@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">CareerAvatar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_file">com.example.preference</string>
+    <string name="prof_user_login_status">com.example.preference_login_status</string>
+    <string name="pref_user_name">com.example.preference_user_name</string>
+    <string name="desc">Job Description&amp;Skills:</string>
+    <string name="date">State&amp;EndDate :</string>
+    <string name="heading">Join CareerAvatar now - it\u0027s free!</string>
+    <string name="join_in">You agree to the NeedyJobs User Agreement,Private Policy,and\nCookie Policy.For phone number signups we will send a \nverification code via SMS</string>
+    <string name="name">Agree &amp; Join</string>
+    <string name="new_account">Alredy have an account?Log In</string>
+    <string name="pass"> 1 lowercase &amp;1 uppercase\n1 number (0-9)\n1 Special Character (!@#$%^&amp;*).\nAtleast 8 Character</string>
+    <string name="photo">When you don\u0027t have a photo,it\u0027s easy for\nfuture employers to skip past you.</string>
+    <string name="addphoto">Add a photo</string>
+    <string name="privacy">We may send you member updates,recruiter\nmessage,jobs suggestions,invitations,reninders\nand promotional message from us and our\npartners.you can change your preferences\nanytime.</string>
+
+    <string-array name="degree">
+        <item>Degree</item>
+        <item>Master Degree</item>
+        <item>Diploma</item>
+        <item>Advanced/Higher Diploma</item>
+        <item>Post Graduate Diploma</item>
+        <item>Cetrificate Cource</item>
+        <item>P.hd</item>
+        <item>M.Phil</item>
+    </string-array>
+    <string-array name="marital">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Windowed</item>
+        <item>Divorced</item>
+        <item>Undisclosed</item>
+    </string-array>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Prefer not to say</item>
+    </string-array>
+    <string-array name="years">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15+</item>
+    </string-array>
+    <string-array name="months">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string-array name="months1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+    <string name="text">hai</string>
+
+    <string-array name="salarytype">
+        <item>Monthly</item>
+        <item>Weekly</item>
+        <item>Daily</item>
+        <item>Hourly</item>
+    </string-array>
+    <string name="salarytype">hai</string>
+    <string-array name="status">
+        <item>Active</item>
+        <item>Closed</item>
+        <item>Hold</item>
+    </string-array>
+</resources>
